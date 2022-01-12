@@ -1,5 +1,27 @@
 # Git cheatsheet
 
+# Sommaire
+
+- [Git flow](#git-flow)
+  - [Initialiser Git Flow](#initialiser-git-flow)
+  - [Features](#features)
+    - [Démarrer une feature](#démarrer-une-feature)
+    - [Terminer une feature](#terminer-une-feature)
+  - [Features (collaboration)](#features-collaboration)
+    - [Push une feature](#push-une-feature)
+    - [Pull une feature](#pull-une-feature)
+  - [Release](#release)
+    - [Démarrer une release](#démarrer-une-release)
+    - [Push une release](#push-une-release)
+    - [Pull une release](#pull-une-release)
+    - [Terminer une release](#terminer-une-release)
+  - [Hotfix](#hotfix)
+    - [Démarrer un hotfix](#démarrer-un-hotfix)
+    - [Push un hotfix](#push-un-hotfix)
+    - [Pull un hotfix](#pull-un-hotfix)
+    - [Terminer un hotfix](#terminer-un-hotfix)
+- [Génération de ce cheatsheet](#génération-de-ce-cheatsheet)
+
 ## Git flow
 
 ### Initialiser Git Flow
@@ -99,3 +121,7 @@ git flow hotfix pull origin VERSION
 ```Shell
 git flow hotfix finish VERSION
 ```
+
+## Génération de ce cheatsheet
+
+Pour générer ce cheatsheet, j'utilise [gh-md-toc](https://github.com/ekalinin/github-markdown-toc).
